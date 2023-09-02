@@ -1,0 +1,67 @@
+.contact{
+	width: 100%;
+	height: auto;
+	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	margin-top: 40px;
+}
+
+.text{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 149.487%;
+	text-align: center;
+	width: 68%;
+	color: #889099;
+	margin-top: 10px;
+}
+
+.contact-block {
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contact-cercle{
+	display: flex;
+	width: 44px;
+	height: 44px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	border-radius: 50px;
+	background: #FBDD37;
+	color: #373D43;
+}
+
+.text-contact-block {
+	margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.first-text-contact{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 149.487%;
+	color: #889099;
+	margin: 0;
+	margin-left: 35px;
+}
+
+.second-text-contact{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 149.487%;
+	color: #373D43;
+	margin: 0;
+	margin-left: 35px;
+	margin-top: 18px;
+}

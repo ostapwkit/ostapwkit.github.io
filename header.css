@@ -1,0 +1,103 @@
+.header{
+	width: 100%;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	color: #373D43;
+  	flex-wrap: wrap;
+  	align-items: flex-start;
+}
+
+.headerName{
+	width: 20%;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+}
+
+.nameCompany{
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 700;
+	color: #373D43;
+}
+.yellow-ending{
+	color: #FBDD37;
+}
+
+.catalogImg{
+	width: 15.2px;
+	height: 16.1px;
+	margin-right: 8px;
+}
+
+.catalog{
+	color: #373D43;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	margin-right: 30px;
+}
+
+.navigation{
+	width: 700px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+}
+
+.search{
+	display: flex;
+	align-items: center;
+	width: auto;
+	cursor: pointer;
+	transition: width 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-input {
+    width: 0;
+    border: none;
+    font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+    border-radius: 5px;
+    background: #F5F5F5;
+    overflow: hidden;
+    transition: width 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search.active .search-input {
+    width: 200px;
+    height: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 0.5px solid #373D43;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+.search-input:focus {
+    outline: none; /* Убираем стандартный фокус */
+    border: 1px solid #ccc; /* Измените цвет бордера на подходящий вам */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 1800px){
+	.padding-header{
+		flex-direction: column;
+	}
+	.search{
+		align-self: flex-end;
+		order: 3;
+	}
+	.navigation{
+		align-self: center;
+		order: 2;
+		margin-top: auto;
+	}
+	.headerName{
+		order: 1;
+	}
+}

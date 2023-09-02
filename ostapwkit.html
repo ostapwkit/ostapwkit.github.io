@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OstapwKit</title>
+  <link rel="stylesheet" href="css/slick.css"/>
+  <link rel="stylesheet" href="css/media-ostapwkit.css">
+  <link rel="stylesheet" href="css/infoTop.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="css/best.css">
+  <link rel="stylesheet" href="css/why.css">
+  <link rel="stylesheet" href="css/stage.css">
+  <link rel="stylesheet" href="css/news.css">
+  <link rel="stylesheet" href="css/feedback.css">
+  <link rel="stylesheet" href="css/queries.css">
+  <link rel="stylesheet" href="css/work.css">
+  <link rel="stylesheet" href="css/complet.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <style>
+  	html{
+		scroll-behavior: smooth;
+	}
+	body{
+	  	background: #F5F5F5;
+	  	margin: 0;
+	  	padding: 0;
+	  	font-family: "Proba Pro", sans-serif;
+	  	color: #373D43;
+	}
+	.padding{
+	  	width: 68%;
+	  	height: auto;
+	 	display: flex;
+	  	justify-content: space-between;
+	  	flex-wrap: wrap;
+	}
+	.company{
+		width: 68%;
+	  	height: auto;
+	  	display: flex;
+	  	justify-content: center;
+	  	flex-direction: column;
+	  	align-items: center;
+	}
+	.line{
+		width: 50px;
+		height: 2px;
+		background: #889099;
+	}
+	.text{
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 149.487%;
+		text-align: center;
+		width: 68%;
+		color: #889099;
+	}
+	.name{
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 120%;
+		text-align: center;
+	}
+	.active-block{
+ 		display: flex !important;
+	}
+	a{
+		color: inherit;
+    	text-decoration: none;
+	}
+	.cart{
+		width: 100%;
+		height: 550px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 55px;
+	}
+	@media screen and (max-width: 1300px){
+		.padding{
+			width: 80%;
+		}
+		.company{
+			width: 80%;
+		}
+		.text{
+			width: 80%;
+		}
+		.line-block{
+			width: 80%;
+		}
+	}
+	@media screen and (max-width: 700px){
+		.padding{
+			width: 90%;
+		}
+		.company{
+			width: 90%;
+		}
+		.text{
+			width: 90%;
+		}
+		.line-block{
+		width: 90%;
+	}
+	}
+	@media screen and (max-width: 500px){
+		.padding{
+			width: 95%;
+		}
+		.company{
+			width: 95%;
+		}
+		.text{
+			width: 95%;
+		}
+		.line-block{
+		width: 95%;
+	}
+	}
+  </style>
+</head>
+<body>
+  	<div class="infoTop">
+	    <div class="padding padding-info">
+	      	<div class="contact-info">
+	            <p>Ukraine, Lviv</p>
+	            <p class="second">+38 093 984 20 48,   +38 096 852 61 26</p>
+	        </div>
+	        <div class="social-icons">
+	            <a href="#">INSTAGRAM</a>
+	            <a href="#">TELEGRAM</a>
+	            <a href="#">WHATSAPP</a>
+	        </div> 
+	    </div>
+    </div>
+
+    <div class="header">
+      <div class="padding padding-header">
+        <div class="headerName">
+          <p class="headerText"><span class="nameCompany">ostapw<span class="yellow-ending">kit</span></span></p>
+        </div>
+        <div class="navigation">
+          <a href="#section1" class="catalog"><img class="catalogImg" src="image/catalog.png" alt="catalog">Каталог</a>
+          <a href="#section2">Про компанію</a>
+          <a href="#section3">Переваги</a>
+          <a href="#section4">Новини</a>
+          <a href="#section5">Статті</a>
+          <a href="#section6">Контакти</a>
+        </div>
+        <div class="search">
+          <img src="image/search.png" class="search-image">
+          <input type="text" class="search-input" placeholder="Пошук">
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel">
+      	<div class="carousel-container">
+          <div class="carousel-item" style="background: url('image/carousel.jpg');">
+            <div class="padding">
+              <div class="carousel-items">
+                <p class="carousel-number">01</p>
+                <p><span class=" start-text" style="color: #FBDD37;">Це професійний макет<br><span class="start-text" style="color: #FFF;">для вашого сайту.</span></span></p>
+                <p class="endTextCarousel">Це професійний макет для вашого сайту.<br>Тут ви можете коротко описати, що пропонує ваша компанія.</p>
+                <div class="button-block">
+					<button class="button detal-button">Детальніше</button>
+              		<button class="button consultation-button">Замовити консультацію</button>
+				</div>
+				
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item" style="background: url('image/carousel.jpg');">
+            <div class="padding">
+              <div class="carousel-items">
+                <p class="carousel-number">02</p>
+                <p><span class=" start-text" style="color: #FBDD37;">Це професійний макет<br><span class="start-text" style="color: #FFF;">для вашого сайту.</span></span></p>
+                  <p class="endTextCarousel">Це професійний макет для вашого сайту.<br>Тут ви можете коротко описати, що пропонує ваша компанія.</p>
+                  <button class="button detal-button">Детальніше</button>
+              <button class="button consultation-button">Замовити консультацію</button>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item" style="background: url('image/carousel.jpg');">
+            <div class="padding">
+              <div class="carousel-items">
+                <p class="carousel-number">03</p>
+                <p><span class=" start-text" style="color: #FBDD37;">Це професійний макет<br><span class="start-text" style="color: #FFF;">для вашого сайту.</span></span></p>
+                  <p class="endTextCarousel">Це професійний макет для вашого сайту.<br>Тут ви можете коротко описати, що пропонує ваша компанія.</p>
+                  <button class="button detal-button">Детальніше</button>
+              <button class="button consultation-button">Замовити консультацію</button>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item" style="background: url('image/carousel.jpg');">
+            <div class="padding">
+              <div class="carousel-items">
+                <p class="carousel-number">04</p>
+                <p><span class=" start-text" style="color: #FBDD37;">Це професійний макет<br><span class="start-text" style="color: #FFF;">для вашого сайту.</span></span></p>
+                <p class="endTextCarousel">Це професійний макет для вашого сайту.<br>Тут ви можете коротко описати, що пропонує ваша компанія.</p>
+                <button class="button detal-button">Детальніше</button>
+              	<button class="button consultation-button">Замовити консультацію</button>
+            </div>
+          </div>
+          </div>
+    	</div>
+      	<div class="carousel-btn" id="dotContainer">
+        	<div class="carousel-dot"></div>
+          	<div class="carousel-dot"></div>
+          	<div class="carousel-dot"></div>
+          	<div class="carousel-dot"></div>
+      	</div>
+  	</div>
+
+  	<div class="best" id="section1">
+  		<div class="company">
+  			<div class="name"><p>Ми пропонуємо найкраще</p></div>
+  			<div class="line"></div>
+  		</div>
+  		<div class="padding best-padding" style="margin-top: 35px;">
+			<div class="best-mam-block">
+				<div class="best-block">
+					<img class="best-image" src="image/best-image1.png">
+					<div class="name-best-block"><p>Назва блоку, чи послуги</p></div>
+					<div class="best-but-block"><button class="best-button">Дивитись каталог</button></div>
+				</div>
+				<div class="best-block">
+					<img class="best-image" src="image/best-image2.png">
+					<div class="name-best-block"><p>Назва блоку, чи послуги</p></div>
+					<div class="best-but-block"><button class="best-button">Дивитись каталог</button></div>
+				</div>
+			</div>
+  			
+			<div class="best-mam-block bot">
+				<div class="best-block">
+					<img class="best-image" src="image/best-image3.png">
+					<div class="name-best-block"><p>Назва блоку, чи послуги</p></div>
+					<div class="best-but-block"><button class="best-button">Дивитись каталог</button></div>
+				</div>
+				<div class="best-block">
+					<img class="best-image" src="image/best-image4.png">
+					<div class="name-best-block"><p>Назва блоку, чи послуги</p></div>
+					<div class="best-but-block"><button class="best-button">Дивитись каталог</button></div>
+				</div>
+			</div>
+  			
+  		</div>
+  	</div>
+
+  	<div class="why" id="section3">
+  		<div class="company">
+  			<div class="name"><p>Чому потрібно вибрати саме нас?</p></div>
+  			<div class="line"></div>
+  		</div>
+  		<div class="text">
+  			<p>Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</p>
+  		</div>
+  		<div class="padding why-padding">
+				<div class="why-block why-block1">
+					<div class="why-image"><img src="image/why1.png"></div>
+					<div class="text-why-block">
+						<p class="first-text-why">Доставка до дверей</p>
+						<p class="second-text-why">Безкоштовно доставляємо замовлення<br> від 3 000 по всій країні.</p>
+					</div>
+			</div>
+			<div class="why-mam-block">
+				<div class="why-block why-block2">
+					<div class="why-image"><img src="image/why2.png"></div>
+					<div class="text-why-block">
+						<p class="first-text-why">Лояльність</p>
+						<p class="second-text-why">Додамо подарунок у кожне<br> замовлення від 1500 ₽</p>
+					</div>
+				</div>
+				<div class="why-block why-block3">
+					<div class="why-image"><img src="image/why3.png"></div>
+					<div class="text-why-block">
+						<p class="first-text-why">Зручна оплата</p>
+						<p class="second-text-why">Картою або готівкою</p>
+					</div>
+				</div>
+			</div>
+  			
+  		</div>
+  	</div>
+
+  	<div class="stage">
+  		<div class="company">
+  			<div class="name"><p>Етапи роботи з нами</p></div>
+  			<div class="line"></div>
+  		</div>
+  		<div class="text">
+  			<p>Усього 3 кроки для нашої співпраці</p>
+  		</div>
+  		<div class="padding stage-padding" style="align-items: center;">
+  			<div class="stage-block side-block">
+  				<div class="stage-number"><p>1</p></div>
+  				<div class="stage-name"><p style="margin: 0;">Заповніть заявку на сайті</p></div>
+  				<div class="stage-button"><button>Відправити заявку</button></div>
+  			</div>
+  			<div class="stage-block center-block">
+  				<div class="stage-number"><p>2</p></div>
+  				<div class="stage-name"><p style="margin: 0;">Менеджер надішле вам документи</p></div>
+  				<div class="stage-text"><p style="margin: 0;">Це відбувається протягом 1-2 годин після заявки</p></div>
+  			</div>
+  			<div class="stage-block side-block">
+  				<div class="stage-number"><p>3</p></div>
+  				<div class="stage-name"><p style="margin: 0;">Підписуємо договір</p></div>
+  				<div class="stage-text"><p style="margin: 0;">Ви підписуєте договір і надсилаєте його нам поштою</p></div>
+  			</div>
+  			<div class="circle-block">
+  				<img class="left-stage-img stage-img" src="image/circle.png">
+  				<img class="right-stage-img stage-img" src="image/circle.png">
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="news" id="section4">
+  		<div class="company" style="height: 250px;">
+  			<div class="name"><p>Новини</p></div>
+  			<div class="line"></div>
+  			<div class="text" style="margin-top: 10px;">
+  				<p>Вже давно відомо, що читабельний зміст буде заважати зосередит.</p>
+  			</div>
+  			<div class="block-text">
+	  			<p class="active" data-target="news-content">Новинки</p>
+	  			<p data-target="promo-content">Акції</p>
+	  			<p data-target="popular-content">Популярні</p>
+	  		</div>
+  		</div>
+  		
+  		<div style="display: none;" class="news-padding active-block"  id="news-content">
+  			<div style="display: none;" class="line-block active-line-block" id="line-block-news">
+				<div class="mam-news-block">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image1.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image1.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+  				
+				<div class="mam-news-block bot">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image1.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image1.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+	  			
+  			</div>
+  			<div style="display: none; margin-top: 25px;" class="line-block" id="line-block-news">
+				<div class="mam-news-block">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image1.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image1.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+
+	  			<div class="mam-news-block bot">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image1.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image1.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+  			</div>
+  		</div>
+
+  		<div style="display: none;" class="news-padding" id="promo-content">
+  			<div style="display: none;" class="line-block active-line-block" id="line-block-promo">
+	  			<div class="mam-news-block">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image2.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image2.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="mam-news-block  bot">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image2.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image2.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+	  		</div>
+	  		<div style="display: none; margin-top: 25px;" class="line-block" id="line-block-promo">
+				<div class="mam-news-block">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image2.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image2.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+
+	  			<div class="mam-news-block  bot">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image2.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image2.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+	  		</div>
+  		</div>
+
+  		<div style="display: none;" class="news-padding" id="popular-content">
+  			<div style="display: none;" class="line-block active-line-block" id="line-block-popular">
+				<div class="mam-news-block">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image3.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image3.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+
+	  			<div class="mam-news-block bot">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image3.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image3.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+	  		</div>
+	  		<div style="display: none; margin-top: 25px;" class="line-block" id="line-block-popular">
+				<div class="mam-news-block">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image3.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image3.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+
+	  			<div class="mam-news-block bot">
+					<div class="news-block">
+						<img class="news-image" src="image/news-image3.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+					<div class="news-block">
+						<img class="news-image" src="image/news-image3.png">
+						<div class="data-block">
+							<div class="name-news-block">КАТЕГОРІЯ</div>
+							<div class="text-news-block"><p>Вже давно відомо, що читабельний зміст буде заважати зосередит...</p></div>
+							<div class="news-cost"><p>Від 7500  ₴</p></div>
+						</div>
+					</div>
+				</div>
+	  		</div>
+  		</div>
+  		<div class="block-button" id="show-all-button"><button class="news-button">Дивитися все</button></div>
+  	</div>
+
+  	<div class="feedback">
+  		<div class="feed-padding">
+  			<div><img src="image/feedback.png" style="border-radius: 12px 0px 0px 12px;"></div>
+  			<div class="feed-block">
+  				<div class="feed-company">
+		  			<div class="feed-name"><p style="margin: 0;">Зворотній звязок</p></div>
+		  			<div class="line"></div>
+	  			</div>
+		  		<div class="feed-text">
+		  			<p style="margin: 0;">Введіть номер телефону і ми передзвонимо Вам у робочий час <br>(пн-пт 06:00-18:00)</p>
+		  		</div>
+		  		<form class="feedback-form">
+			        <div class="input-container">
+					    <input id="input-box-1" class="input input-box" type="text" name="name">
+					    <div class="custom-placeholder" id="custom-placeholder-1">
+					      <p class="input-text1">Ваше ім'я</p>
+					      <p class="input-text2">Остап Штай</p>
+					    </div>
+					    <div onclick="clearField('input-box-1')" class="image-placeholder" style="background: url('image/union.png');"></div>
+					</div>
+					<div class="input-container">
+					    <input id="input-box-2" class="input input-box" type="text" name="email">
+					    <div class="custom-placeholder" id="custom-placeholder-2">
+					      <p class="input-text1">E-mail</p>
+					      <p class="input-text2">procombiz@gmail.com</p>
+					    </div>
+					    <div onclick="clearField('input-box-2')" class="image-placeholder" style="background: url('image/union.png');"></div>
+					</div>
+					<div class="input-container">
+					    <input id="input-box-3" class="input input-box" type="text" name="phone" pattern="[+]?[0-9]+">
+					    <div class="custom-placeholder" id="custom-placeholder-3">
+					      	<p class="input-text2">+380 ХХ ХХХ ХХ ХХ</p>
+					    </div>
+					</div>
+			        
+			        <div class="checkbox-container">
+					    <input type="checkbox" id="confirmation" name="confirmation">
+					    <label for="confirmation" class="custom-checkbox"></label>
+					    <label class="checkbox-text" for="confirmation">
+					        Я підтверджую, що ознайомлений із Політикою обробки<br> персональних даних та приймаю умови Політики.
+					    </label>
+					</div>
+
+			        <button type="submit" class="submit-button" id="submitButton">Замовити дзвінок</button>
+			    </form>
+			</div>
+  		</div>
+	</div>
+
+	<div class="queries" id="section7">
+		<div class="queries-padding">
+			<div class="company" style="width: 100%;">
+	  			<div class="name" id="section3"><p>Поширені запитання</p></div>
+	  			<div class="line"></div>
+	  		</div>
+	  		<div class="text" style="width: 100%;">
+	  			<p>Тут ви знайдете відповіді на найчастіші запитання</p>
+	  		</div>
+	  		<div class="queries-block">
+	  			<div class="accordion">
+	  				<div class="accordion-name-block">
+	  					<p class="accordion-name">Основні тенденції розвитку ринку?</p>
+	  					<img class="accordionc-icon" src="image/queries1.png">
+	  				</div>
+				  	<div class="accordion-content">
+				    	<p class="accordeon-text">Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та <br> шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</p>
+				  	</div>
+				</div>
+	  		</div>
+	  		<div class="queries-block">
+	  			<div class="accordion">
+	  				<div class="accordion-name-block">
+	  					<p class="accordion-name">Основні тенденції розвитку ринку?</p>
+	  					<img class="accordionc-icon" src="image/queries1.png">
+	  				</div>
+				  	<div class="accordion-content">
+				    	<p class="accordeon-text">Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та <br> шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</p>
+				  	</div>
+				</div>
+	  		</div>
+	  		<div class="queries-block">
+	  			<div class="accordion">
+	  				<div class="accordion-name-block">
+	  					<p class="accordion-name">Основні тенденції розвитку ринку?</p>
+	  					<img class="accordionc-icon" src="image/queries1.png">
+	  				</div>
+				  	<div class="accordion-content">
+				    	<p class="accordeon-text">Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та <br> шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</p>
+				  	</div>
+				</div>
+	  		</div>
+	  		<div class="queries-block">
+	  			<div class="accordion">
+	  				<div class="accordion-name-block">
+	  					<p class="accordion-name">Основні тенденції розвитку ринку?</p>
+	  					<img class="accordionc-icon" src="image/queries1.png">
+	  				</div>
+				  	<div class="accordion-content">
+				    	<p class="accordeon-text">Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та <br> шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</p>
+				  	</div>
+				</div>
+	  		</div>
+	  		<div class="queries-block">
+	  			<div class="accordion">
+	  				<div class="accordion-name-block">
+	  					<p class="accordion-name">Основні тенденції розвитку ринку?</p>
+	  					<img class="accordionc-icon" src="image/queries1.png">
+	  				</div>
+				  	<div class="accordion-content">
+				    	<p class="accordeon-text">Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та <br> шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</p>
+				  	</div>
+				</div>
+	  		</div>
+	  		<div class="block-button" id="quer-show-all-button"><button class="news-button">Дивитися все</button></div>
+		</div>
+	</div>
+
+	<div class="feedback" id="section2">
+  		<div class="feed-padding" style="height: auto;">
+  			<div><img src="image/info.png" style="border-radius: 12px 0px 0px 12px;"></div>
+  			<div class="feed-block">
+  				<div class="feed-company">
+		  			<div class="feed-name"><p style="margin: 0;">Про компанію</p></div>
+		  			<div class="line"></div>
+	  			</div>
+		  		<div class="feed-text">
+		  			<p style="margin: 0;">Давно з'ясовано, що при оцінці дизайну та композиції текст, що читається, заважає зосередитися. Lorem Ipsum використовують тому, що той забезпечує більш менш стандартне заповнення шаблону <br><br>
+
+					Давно з'ясовано, що при оцінці дизайну та композиції текст, що читається, заважає зосередитися. Lorem Ipsum використовують тому, що той забезпечує більш менш стандартне заповнення шаблону <br><br>
+
+					Давно з'ясовано, що при оцінці дизайну та композиції текст, що читається, заважає зосередитися. Lorem Ipsum використовують тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+		  		</div>
+			</div>
+  		</div>
+	</div>
+
+	<div class="work">
+		<div class="work-padding" style="background: url('image/work-block.png');background-repeat: no-repeat;">
+			<div class="work-block">
+				<div class="block-top" style="background: url('image/work-img.png');">
+					<p class="text-top1">більше</p>
+					<p class="text-top2">287</p>
+				</div>
+				<div class="block-bottom">
+					<p style="margin: 0;">Років успішної роботи <br> та співпраці</p>
+				</div>
+			</div>
+			<div class="vert-line"></div>
+			<div class="work-block">
+				<div class="block-top" style="background: url('image/work-img.png');">
+					<p class="text-top1">більше</p>
+					<p class="text-top2">287</p>
+				</div>
+				<div class="block-bottom">
+					<p style="margin: 0;">Років успішної роботи <br> та співпраці</p>
+				</div>
+			</div>
+			<div class="vert-line"></div>
+			<div class="work-block">
+				<div class="block-top" style="background: url('image/work-img.png');">
+					<p class="text-top1">більше</p>
+					<p class="text-top2">287</p>
+				</div>
+				<div class="block-bottom">
+					<p style="margin: 0;">Років успішної роботи <br> та співпраці</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="complet"  id="section5">
+  		<div class="company">
+  			<div class="name"><p>Маємо 125+ задоволених клієнтів <br> та виконаних проектів</p></div>
+  			<div class="line"></div>
+  		</div>
+  		<div class="text">
+  			<p>Реальні відгуки від наших клієнтів</p>
+  		</div>
+
+  		<div class="main">
+		  <div class="slider">
+		    <div class="slide" id="one">
+		    	<div class="slide-block">
+		    		<p class="comp-date">12/01/2023</p>
+		      		<p class="comp-name">Відгук від Володимира К.</p>
+		      		<p class="comp-text">Давно з'ясовано, що при оцінці дизайну та композиції текст, що <br> читається, заважає зосередитися. Lorem Ipsum використовують <br> тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+		    	</div>
+		    </div>
+		    <div class="slide" id="two">
+		      <div class="slide-block">
+		    		<p class="comp-date">12/01/2023</p>
+		      		<p class="comp-name">Відгук від Володимира К.</p>
+		      		<p class="comp-text">Давно з'ясовано, що при оцінці дизайну та композиції текст, що <br> читається, заважає зосередитися. Lorem Ipsum використовують <br> тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+		    	</div>
+		    </div>
+		    <div class="slide" id="three">
+		      <div class="slide-block">
+		    		<p class="comp-date">12/01/2023</p>
+		      		<p class="comp-name">Відгук від Володимира К.</p>
+		      		<p class="comp-text">Давно з'ясовано, що при оцінці дизайну та композиції текст, що <br> читається, заважає зосередитися. Lorem Ipsum використовують <br> тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+		    	</div>
+		    </div>
+		    <div class="slide" id="four">
+		      <div class="slide-block">
+		    		<p class="comp-date">12/01/2023</p>
+		      		<p class="comp-name">Відгук від Володимира К.</p>
+		      		<p class="comp-text">Давно з'ясовано, що при оцінці дизайну та композиції текст, що <br> читається, заважає зосередитися. Lorem Ipsum використовують <br> тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+		    	</div>
+		    </div>
+		  </div>
+		  <div class="gradient-block">
+		      <div class="gradient-left"></div>
+		      <div style="width: 28%; height: 320px;"></div>
+		      <div class="gradient-right"></div>
+		  </div>
+		  <div class="opacity-block">
+		      <div class="opacity"></div>
+		      <div class="opacity"></div>
+		  </div>
+		  <div class="comp-circle-block">
+		    <div class="circle-button slider-prev" style="margin-left: 25px;"><img src="image/circle-slider-left.png"></div>
+		    <div class="circle-button slider-next" style="margin-right: 25px;"><img src="image/circle-slider-right.png"></div>
+		  </div>
+		</div>
+		<div class="comp-padding">
+			<div class="comp-pod hidden">
+				<div class="block-comp-pod">
+					<div class="comp-blck">
+			    	<div class="slide-block">
+			    		<p class="comp-date">12/01/2023</p>
+			      		<p class="comp-name">Відгук від Володимира К.</p>
+			      		<p class="comp-text">Давно з'ясовано, що при оцінці дизайну та композиції текст, що <br> читається, заважає зосередитися. Lorem Ipsum використовують <br> тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+			    	</div>
+			    </div>
+			    <div class="comp-blck">
+			      <div class="slide-block">
+			    		<p class="comp-date">12/01/2023</p>
+			      		<p class="comp-name">Відгук від Володимира К.</p>
+			      		<p class="comp-text">Давно з'ясовано, що при оцінці дизайну та композиції текст, що <br> читається, заважає зосередитися. Lorem Ipsum використовують <br> тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+			    	</div>
+			    </div>
+				</div>
+				
+			    <div class="block-comp-pod">
+			    	<div class="comp-blck">
+				      <div class="slide-block">
+				    		<p class="comp-date">12/01/2023</p>
+				      		<p class="comp-name">Відгук від Володимира К.</p>
+				      		<p class="comp-text">Давно з'ясовано, що при оцінці дизайну та композиції текст, що <br> читається, заважає зосередитися. Lorem Ipsum використовують <br> тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+				    	</div>
+				    </div>
+				    <div class="comp-blck">
+				      <div class="slide-block">
+				    		<p class="comp-date">12/01/2023</p>
+				      		<p class="comp-name">Відгук від Володимира К.</p>
+				      		<p class="comp-text">Давно з'ясовано, що при оцінці дизайну та композиції текст, що <br> читається, заважає зосередитися. Lorem Ipsum використовують <br> тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+				    	</div>
+				    </div>
+			    </div>
+			</div>
+			<button id="сomp-show-all-button" class="news-button">Дивитися все</button>
+		</div>
+	</div>
+
+	<div class="contact" id="section6">
+  		<div class="company">
+  			<div class="name"><p>Зв'яжіться з нами</p></div>
+  			<div class="line"></div>
+  		</div>
+  		<div class="text">
+  			<p>Зручним для вас способом</p>
+  		</div>
+  		<div class="padding">
+  			<div class="contact-block">
+  				<div class="contact-cercle">1</div>
+  				<div class="text-contact-block">
+  					<p class="first-text-contact">Адреса</p>
+  					<p class="second-text-contact">Країна, місто, <br>Назва вулиці, 32</p>
+  				</div>
+  			</div>
+  			<div class="contact-block">
+  				<div class="contact-cercle">2</div>
+  				<div class="text-contact-block">
+  					<p class="first-text-contact">Телефони</p>
+  					<p class="second-text-contact">+38 093 984 20 48 <br>+38 096 852 61 26</p>
+  				</div>
+  			</div>
+  			<div class="contact-block">
+  				<div class="contact-cercle">3</div>
+  				<div class="text-contact-block">
+  					<p class="first-text-contact">Час работи</p>
+  					<p class="second-text-contact">пн-пт 08:00-19:00 <br>сб-нд Вихідні</p>
+  				</div>
+  			</div>
+  			<div class="contact-block">
+  				<div class="contact-cercle">4</div>
+  				<div class="text-contact-block">
+  					<p class="first-text-contact">Інтрернет пошта</p>
+  					<p class="second-text-contact">procombiz@gmail.com</p>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="cart" style="background: url('image/cart.png');">
+  		<img src="image/place.png" style="margin-top: -100px;">
+  	</div>
+
+  	<div class="footer">
+  		<div class="foot-top">
+  			<div class="foot-name-block">
+  				<p class="fearst-name-foot" style="margin: 0;">ostapwkit</p>
+  				<p class="second-name-foot" style="margin: 0;">UI/UX design</p>
+  			</div>
+  			<div class="foot-block-text">
+  				<a class="foot-text" href="#section2">Про компанію</a>
+          		<a class="foot-text" href="#section1">Каталог</a>
+          		<a class="foot-text" href="#section7">Питання та відповіді</a>
+          		<a class="foot-text" href="#section4">Новини</a>
+  			</div>
+  			<div class="foot-block-text">
+  				<a class="foot-text" href="#section5">Статті та огляди</a>
+  				<a class="foot-text" href="#section6">Контакти</a>
+  			</div>
+  			<div class="foot-block-text">
+  				<p class="foot-text">Україна, Lviv <br> з 8:00 до 21:00 (без вихідних)</p>
+  				<p class="foot-text" style="margin-top: 20px;">procombiz@gmail.com</p>
+  			</div>
+  			<div class="foot-block-text">
+  				<p class="foot-text">+38 093 984 20 48 <br> +38 096 852 61 26</p>
+  			</div>
+  		</div>
+  		
+  		<div class="foot-bot">
+  			<div class="foot-line"></div>
+  			<div class="foot-button">
+  				<p class="foot-bot-but">© 2011–2023</p>
+  				<a href="#" class="foot-bot-but">Правила сайту</a>
+  				<p class="foot-bot-but">Shtay O.</p>
+  				<div style="cursor: pointer;" class="visa">
+  					<div>
+  						<img src="image/visa2.png" style="margin: 0;">
+  						<img src="image/visa3.png" style="margin: 0;">
+  						<img src="image/visa4.png" style="margin: 0;">
+  						<img src="image/visa5.png" style="margin: 0;">
+  					</div>
+  					<img src="image/card.png" style="width: 28px; height: 17px;">
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/ostapwkit.js"></script>
+</body>
+</html>
+
+
+
+

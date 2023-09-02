@@ -1,0 +1,158 @@
+.best{
+	width: 100%;
+	height: auto;
+	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	margin-top: 20px;
+}
+
+.best-mam-block{
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+}
+
+.best-block{
+	width: 310px;
+	height: 360px;
+	background: #FFF;
+}
+
+.best-image{
+	width: 100%;
+	border-radius: 3px 3px 0 0;
+}
+
+.name-best-block{
+	width: 100%;
+	height: 114px;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #000;
+}
+
+.best-but-block{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.best-button{
+	width: 215px;
+	height: 56px;
+	background: #EDF1F7;
+	text-align: center;
+	color: #373D43;
+	border: none;
+	border-radius: 3px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.best-button:hover {
+    background-color: #8E98A9;
+    color: #EDF1F7;
+}
+
+@media screen and (max-width: 1850px){
+	.best-padding{
+		flex-direction: column;
+	}
+	.best-mam-block{
+		width: 100%;
+		justify-content: space-between;
+	}
+	.best-block {
+		width: 47%;
+		height: 380px;
+	}
+	.bot{
+		margin-top: 30px;
+	}
+	.best-image{
+		height: 220px;
+	}
+	.name-best-block{
+		height: 70px;
+	}
+}
+@media screen and (max-width: 1400px){
+	.best-block{
+		height: 330px;
+	}
+	.best-image{
+		height: 180px;
+	}
+	.name-best-block{
+		height: 60px;
+	}
+}
+@media screen and (max-width: 1000px){
+	.best-block{
+		height: 280px;
+	}
+	.best-image{
+		height: 140px;
+	}
+}
+@media screen and (max-width: 600px){
+	.best-block{
+		height: 230px;
+	}
+	.best-image{
+		height: 120px;
+	}
+	.name-best-block{
+		font-size: 2.7vw;
+		height: 50px;
+	}
+	.best-button{
+		width: 75%;
+		height: 40px;
+		font-size: 2.3vw;
+	}
+}
+@media screen and (max-width: 450px){
+	.best-block{
+		height: 220px;
+	}
+	.best-image{
+		height: 120px;
+	}
+	.name-best-block{
+		font-size: 3vw;
+		height: 40px;
+	}
+	.best-button{
+		width: 75%;
+		height: 40px;
+		font-size: 2.5vw;
+	}
+}@media screen and (max-width: 350px){
+	.best-block{
+		height: 150px;
+	}
+	.best-image{
+		height: 80px;
+	}
+	.name-best-block{
+		font-size: 3.2vw;
+		height: 30px;
+	}
+	.best-button{
+		width: 75%;
+		height: 25px;
+		font-size: 2.7vw;
+	}
+}

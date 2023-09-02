@@ -1,0 +1,153 @@
+.why{
+	width: 100%;
+	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	margin-top: 20px;
+}
+
+.text{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 149.487%;
+	text-align: center;
+	width: 68%;
+	color: #889099;
+	margin-top: 10px;
+}
+
+.why-mam-block{
+	width: 58.5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.why-block {
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.why-image{
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	background: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-why-block {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.first-text-why{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	color: #373D43;
+	margin: 0;
+	margin-left: 30px;
+}
+
+.second-text-why{
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 149.487%;
+	color: #889099;
+	margin: 0;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.why-block1{
+	width: 430px;
+}
+.why-block2{
+	width: 330px;
+}
+.why-block3{
+	width: 280px;
+}
+
+@media screen and (max-width: 1550px){
+	.why-padding{
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.why-mam-block{
+		width: 100%;
+		justify-content: space-between;
+	}
+}
+@media screen and (max-width: 800px){
+	.why-block{
+		width: auto;
+	}
+	.first-text-why{
+		font-size: 3vw;
+		margin-left: 15px;
+	}
+	.second-text-why{
+		margin-top: 10px;
+		margin-left: 15px;
+		font-size: 2.2vw;
+	}
+	.why-image{
+		width: 60px;
+		height: 60px;
+	}
+}
+@media screen and (max-width: 550px){
+	.first-text-why{
+		font-size: 3.3vw;
+		margin-left: 10px;
+	}
+	.second-text-why{
+		margin-top: 5px;
+		margin-left: 10px;
+		font-size: 2.5vw;
+	}
+	.why-image{
+		width: 50px;
+		height: 50px;
+	}
+}
+@media screen and (max-width: 400px){
+	.first-text-why{
+		font-size: 3.5vw;
+		margin-left: 5px;
+	}
+	.second-text-why{
+		margin-top: 23x;
+		margin-left: 5px;
+		font-size: 2.7vw;
+	}
+	.why-image{
+		width: 40px;
+		height: 40px;
+	}
+}
+@media screen and (max-width: 300px){
+	.first-text-why{
+		font-size: 3.8vw;
+		margin-left: 10px;
+	}
+	.second-text-why{
+		margin-top: 3x;
+		margin-left: 10px;
+		font-size: 3vw;
+	}
+	.why-image{
+		width: 20px;
+		height: 20px;
+	}
+}

@@ -1,0 +1,137 @@
+/*@media screen and (max-width: 1600px) {
+        .contact-info{
+                width: 60%;
+        }
+        .headerName{
+                width: 20%;
+        }
+}
+
+@media screen and (max-width: 1250px) {
+	.header{
+  		height: auto;
+  	}
+        .headerName{
+  		width: 200px;
+  	}
+  	.nameCompany{
+  		font-size: 3vw;
+  	}
+  	.navigation{
+  		font-size: 1.7vw;
+  		width: 600px;
+  	}
+  	.catalog{
+  		font-size: 1.7vw;
+                margin-right: 0;
+  	}
+        .catalogImg{
+                width: 15%;
+                height: 100%;
+        }
+}
+
+@media screen and (max-width: 1100px) {
+        .search{
+                order: 2;
+        }
+        .navigation{
+                width: 700px;
+                order: 3;
+                margin-top: 10px;
+        }
+        
+        
+}
+
+@media screen and (max-width: 1000px) {
+  	.infoTop {
+  		height: auto;
+    	flex-direction: column;
+    	justify-content: center;
+    	margin: 0;
+  	}
+  	.contact-info{
+  		font-size: 2vw;
+  		width: 80%;
+    	justify-content: space-around;
+  	}
+  	.second{
+  		padding-left: 100px;
+  	}
+  	.social-icons{
+  		width: 40%;
+                font-size: 1.7vw; 
+        }
+    
+        .headerName{
+  		width: 130px;
+  	}
+  	.nameCompany{
+  		font-size: 3vw;
+  	}
+  	.navigation{
+  		font-size: 1.7vw;
+  		width: 600px;
+  	}
+  	.catalog{
+  		font-size: 1.7vw;
+  	}
+}
+
+@media screen and (max-width: 850px) {
+        .header{
+                height: 70px;
+                justify-content: center;
+        }
+        .navigation{
+                height: 20px;
+                align-self: flex-end;
+                margin-left: -110px;
+                font-size: 2.7vw;
+                width: 600px;
+        }
+        .catalog{
+                font-size: 1.7vw;
+        }
+        .headerName{
+                height: auto;
+                align-self: start;
+                margin-left: 100px;
+        }
+        .search{
+                margin-right: 100px;
+                margin-top: 20px;
+                align-self: start;
+        }
+}
+
+@media screen and (max-width: 500px) {
+  	.contact-info{
+  		font-size: 3vw;
+  		width: 80%;
+  	}
+  	.second{
+  		padding-left: 32px;
+  	}
+  	.social-icons{
+  		width: 50%;
+        font-size: 2.5vw; 
+    }
+}
+
+@media screen and (max-width: 300px) {
+	.header {
+    	font-size: 4.5vw;
+  	}
+  	.contact-info{
+  		width: 80%;
+  	}
+  	.second{
+  		padding-left: 0px;
+  	}
+  	.social-icons{
+  		width: 70%;
+        font-size: 3vw; 
+    }
+}*/

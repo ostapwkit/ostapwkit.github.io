@@ -1,0 +1,94 @@
+.footer{
+	width: 100%;
+	height: 335px;
+	background: #373D43;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: -2px;
+}
+
+.foot-top{
+	width: 68%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 85px;
+}
+
+.foot-name-block{
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: flex-start;
+}
+
+.fearst-name-foot{
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 100%;
+	color: #889099;
+}
+
+.second-name-foot{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 149.487%;
+	color: #889099;
+}
+
+.foot-block-text{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.foot-text{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	color: #C4CBD2;
+	margin: 0;
+}
+
+.foot-bot{
+	width: 68%;
+	height: 53px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.foot-line{
+	background: rgba(238, 238, 238, 0.10);
+	width: 100%;
+	height: 1px;
+}
+
+.foot-button{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.foot-bot-but{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 149.487%;
+	color: #C4CBD2;
+	margin: 0;
+}
+
+.visa{
+	width: 105px;
+	display: flex;
+	justify-content: space-between;
+}
